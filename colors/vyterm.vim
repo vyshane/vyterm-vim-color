@@ -27,6 +27,7 @@ hi VertSplit            ctermfg=black          ctermbg=black
 hi ModeMsg              ctermfg=green          ctermbg=black
 hi ErrorMsg             ctermfg=red            ctermbg=black
 hi Error                ctermfg=red            ctermbg=none
+hi ColorColumn                                 ctermbg=grey
 
 
 " Vim 7.x specific
