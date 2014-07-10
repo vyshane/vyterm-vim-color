@@ -9,7 +9,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="vy3"
+let g:colors_name="vyterm"
 
 
 hi Normal               ctermfg=none
@@ -17,7 +17,7 @@ hi Title                ctermfg=yellow
 hi Cursor               ctermbg=white
 hi LineNr               ctermfg=black
 hi Visual               ctermbg=black
-hi NonText              ctermfg=black
+hi NonText              ctermfg=grey
 hi StatusLine           ctermfg=black          ctermbg=yellow
 hi StatusLineNC         ctermfg=black          ctermbg=grey
 hi TabLine              ctermfg=grey           ctermbg=black     cterm=none
@@ -38,7 +38,7 @@ if version >= 700
   hi PmenuSel           ctermfg=black          ctermbg=white
   hi PmenuSbar          ctermfg=darkgrey       ctermbg=black
   hi PmenuThumb         ctermfg=white          ctermbg=none
-  hi Search             ctermfg=yellow         ctermbg=black
+  hi Search                                    ctermbg=yellow
   hi IncSearch          ctermfg=yellow         ctermbg=black
   hi SpellBad           ctermfg=red            ctermbg=none
   hi SpellCap           ctermfg=red            ctermbg=none  
