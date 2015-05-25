@@ -17,7 +17,7 @@ hi Title                ctermfg=yellow
 hi Cursor               ctermbg=white
 hi LineNr               ctermfg=black
 hi Visual               ctermbg=black
-hi NonText              ctermfg=grey
+hi NonText              ctermfg=black
 hi StatusLine           ctermfg=black          ctermbg=yellow
 hi StatusLineNC         ctermfg=black          ctermbg=grey
 hi TabLine              ctermfg=grey           ctermbg=black     cterm=none
