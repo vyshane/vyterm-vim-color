@@ -48,7 +48,7 @@ endif
 
 
 " Syntax highlighting
-hi Comment              ctermfg=darkgrey
+hi Comment              ctermfg=black          cterm=bold
 hi Todo                 ctermfg=red            ctermbg=none
 hi Operator             ctermfg=none
 hi Identifier           ctermfg=none
